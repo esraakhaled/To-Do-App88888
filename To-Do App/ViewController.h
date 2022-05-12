@@ -6,9 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddTask.h"
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
-@interface ViewController : UIViewController
-
+@property id <AddTask> addTaskProtocol;
+@property int tid;
 
 @end
-

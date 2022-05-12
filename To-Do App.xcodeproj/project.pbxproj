@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028B59D1282D2F2C00D1607B /* DoneTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59D0282D2F2C00D1607B /* DoneTableTableViewController.m */; };
+		028B59D4282D311700D1607B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59D3282D311700D1607B /* Task.m */; };
+		028B59D7282D323E00D1607B /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59D6282D323E00D1607B /* UserDefaults.m */; };
+		028B59DC282D342000D1607B /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59DB282D342000D1607B /* EditViewController.m */; };
+		028B59DF282D34AC00D1607B /* InProgressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59DE282D34AC00D1607B /* InProgressTableViewController.m */; };
+		028B59E2282D352F00D1607B /* TodoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028B59E1282D352F00D1607B /* TodoTableViewController.m */; };
 		02F4AA1A282C67040084928B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F4AA19282C67040084928B /* AppDelegate.m */; };
 		02F4AA1D282C67040084928B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F4AA1C282C67040084928B /* SceneDelegate.m */; };
 		02F4AA20282C67040084928B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F4AA1F282C67040084928B /* ViewController.m */; };
@@ -38,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028B59CF282D2F2C00D1607B /* DoneTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneTableTableViewController.h; sourceTree = "<group>"; };
+		028B59D0282D2F2C00D1607B /* DoneTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneTableTableViewController.m; sourceTree = "<group>"; };
+		028B59D2282D311700D1607B /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		028B59D3282D311700D1607B /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		028B59D5282D323E00D1607B /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		028B59D6282D323E00D1607B /* UserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		028B59D8282D32DE00D1607B /* AddTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTask.h; sourceTree = "<group>"; };
+		028B59D9282D339400D1607B /* EditTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTask.h; sourceTree = "<group>"; };
+		028B59DA282D342000D1607B /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		028B59DB282D342000D1607B /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		028B59DD282D34AC00D1607B /* InProgressTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressTableViewController.h; sourceTree = "<group>"; };
+		028B59DE282D34AC00D1607B /* InProgressTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressTableViewController.m; sourceTree = "<group>"; };
+		028B59E0282D352F00D1607B /* TodoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableViewController.h; sourceTree = "<group>"; };
+		028B59E1282D352F00D1607B /* TodoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewController.m; sourceTree = "<group>"; };
 		02F4AA15282C67040084928B /* To-Do App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F4AA18282C67040084928B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02F4AA19282C67040084928B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +138,20 @@
 				02F4AA2C282C67070084928B /* Info.plist */,
 				02F4AA2D282C67080084928B /* main.m */,
 				02F4AA24282C67040084928B /* To_Do_App.xcdatamodeld */,
+				028B59CF282D2F2C00D1607B /* DoneTableTableViewController.h */,
+				028B59D0282D2F2C00D1607B /* DoneTableTableViewController.m */,
+				028B59D2282D311700D1607B /* Task.h */,
+				028B59D3282D311700D1607B /* Task.m */,
+				028B59D5282D323E00D1607B /* UserDefaults.h */,
+				028B59D6282D323E00D1607B /* UserDefaults.m */,
+				028B59D8282D32DE00D1607B /* AddTask.h */,
+				028B59D9282D339400D1607B /* EditTask.h */,
+				028B59DA282D342000D1607B /* EditViewController.h */,
+				028B59DB282D342000D1607B /* EditViewController.m */,
+				028B59DD282D34AC00D1607B /* InProgressTableViewController.h */,
+				028B59DE282D34AC00D1607B /* InProgressTableViewController.m */,
+				028B59E0282D352F00D1607B /* TodoTableViewController.h */,
+				028B59E1282D352F00D1607B /* TodoTableViewController.m */,
 			);
 			path = "To-Do App";
 			sourceTree = "<group>";
@@ -269,7 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028B59D7282D323E00D1607B /* UserDefaults.m in Sources */,
+				028B59E2282D352F00D1607B /* TodoTableViewController.m in Sources */,
+				028B59DC282D342000D1607B /* EditViewController.m in Sources */,
+				028B59D4282D311700D1607B /* Task.m in Sources */,
+				028B59D1282D2F2C00D1607B /* DoneTableTableViewController.m in Sources */,
 				02F4AA2E282C67080084928B /* main.m in Sources */,
+				028B59DF282D34AC00D1607B /* InProgressTableViewController.m in Sources */,
 				02F4AA20282C67040084928B /* ViewController.m in Sources */,
 				02F4AA1A282C67040084928B /* AppDelegate.m in Sources */,
 				02F4AA1D282C67040084928B /* SceneDelegate.m in Sources */,
